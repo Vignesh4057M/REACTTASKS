@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.counter-box{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding-top: 20px;
+    margin: 30px;
+    height: 200px;
+    width: 250px;
+    border-radius: 20px;
+    background-color: rgb(219, 213, 213);
+}
+
+.counter-box h2{
+    color: rgb(243, 61, 0);
+}
+
+.btn-group{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.btn-group button{
+    height: 40px;
+    width: 150px;
+    border-radius: 20px;
+    border: none;
+    background-color: aqua;
+}

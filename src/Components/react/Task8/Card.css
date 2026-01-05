@@ -1,0 +1,17 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.card{
+    background-color: gray;
+    height: 100px;
+    width: 220px;
+    border-radius: 20px;
+    text-align: center  ;
+    padding-top: 18px;
+}
+h4,h2{
+    color: blue;
+}

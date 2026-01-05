@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.topbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #222;
+    padding: 15px 20px;
+}
+
+.brand {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.navlinks {
+    display: flex;
+    gap: 15px;
+}
+
+.navlinks a {
+    color: white;
+    text-decoration: none;
+}
+
+.card-area {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+
+.info-card {
+    flex: 1;
+    min-width: 200px;
+    background-color: #f4f4f4;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.bottom-area {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #222;
+    color: white;
+    padding: 15px;
+}

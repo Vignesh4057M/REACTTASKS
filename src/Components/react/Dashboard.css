@@ -1,0 +1,49 @@
+/* ================= DASHBOARD CONTAINER ================= */
+.dashboard-container {
+  padding: 30px;
+  min-height: 100vh;
+  background-color: #f5f7fb;
+}
+
+/* ================= HEADINGS ================= */
+.dashboard-title {
+  font-size: 28px;
+  font-weight: 600;
+  margin-bottom: 25px;
+}
+
+.dashboard-subtitle {
+  font-size: 20px;
+  margin: 20px 0;
+}
+
+/* ================= CARD GRID ================= */
+.dashboard-card-grid {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+/* ================= BUTTON ================= */
+.dashboard-back-btn {
+  background-color: #1976d2;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-bottom: 15px;
+}
+
+.dashboard-back-btn:hover {
+  background-color: #135ba1;
+}
+
+/* ================= OUTPUT SECTION ================= */
+.dashboard-output {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
+}

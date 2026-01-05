@@ -1,0 +1,130 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+/* 
+.page-wrapper{
+    padding-top: 200px;
+} */
+
+/* NAVIGATION BAR */
+.header-bar{
+    background-color: black;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-bar img{
+    height: 80px;
+    width: 80px;
+}
+
+.header-bar h3{
+    color: white;
+    font-size: 28px;
+    font-weight: 600;
+    margin-left: 20px;
+}
+
+.nav-links{
+    display: flex;
+    gap: 30px;
+}
+
+.nav-links a{
+    text-decoration: none;
+    color: rgb(70, 70, 120);
+    font-size: 20px;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+.nav-links a:hover{
+    color: white;
+}
+
+/* CARD SECTION */
+.card-container{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    padding: 40px 20px;
+    flex-wrap: wrap;
+}
+
+.course-card{
+    width: 330px;
+    background-color: rgb(50, 50, 50);
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0px 4px 12px rgba(0,0,0,0.3);
+    transition: transform 0.3s;
+    cursor: pointer;
+}
+
+.course-card:hover{
+    transform: scale(1.05);
+}
+
+.course-card img{
+    width: 100%;
+    height: 200px;
+    object-fit: contain;
+    background-color: white;
+}
+
+.course-card h3{
+    color: white;
+    font-size: 22px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.course-card p{
+    padding: 12px;
+    color: rgb(210, 210, 210);
+    text-align: justify;
+}
+
+/* FOOTER */
+.footer-section {
+  width: 100%;
+  background: black;
+  padding: 20px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer a {
+  text-decoration: none;
+  display: flex;
+  gap: 25px;
+}
+
+/* Icon Styles */
+.icon-whatsapp, .icon-instagram, .icon-twitter {
+  font-size: 28px;
+  color: #fff;
+  transition: 0.4s ease-in-out;
+}
+
+/* Hover Colors */
+.icon-whatsapp:hover {
+  color: greenyellow;
+  transform: scale(1.2);
+}
+
+.icon-instagram:hover {
+  color: rgb(199, 41, 67);
+  transform: scale(1.2);
+}
+
+.icon-twitter:hover {
+  color: rgb(115, 197, 248);
+  transform: scale(1.2);
+}

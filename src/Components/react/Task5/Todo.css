@@ -1,0 +1,39 @@
+.task-done {
+  text-decoration: line-through;
+  color: green;
+  font-weight: bold;
+}
+
+.todo-list button{
+    margin-right: 20px;
+    margin-bottom: 20px;
+    height: 30px;
+    width: 100px;
+}
+
+#btn1{
+    color: white;
+    background-color: blueviolet;
+}
+
+#btn2{
+    color: white;
+    background-color: red;
+}
+.todo-list-wrapper{
+    padding-top: 30px;
+}
+.gapp{
+    display: flex;
+    gap: 30px;
+}
+.titlename ,
+.timeset{
+    height: 30px;
+    width: 220px;
+}
+
+.UPAD{
+    height: 30px;
+    width: 120px;
+}

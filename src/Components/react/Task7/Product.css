@@ -1,0 +1,121 @@
+/* ---------- COMMON ---------- */
+.container {
+  padding: 20px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+h2 {
+  margin-bottom: 15px;
+}
+
+/* ---------- FILTERS ---------- */
+.filters {
+  margin-bottom: 20px;
+}
+
+.filters select {
+  padding: 8px 12px;
+  margin-right: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+}
+
+/* ---------- PRODUCT LIST ---------- */
+.product-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.product-card {
+  border: 1px solid #e5e7eb;
+  padding: 12px;
+  border-radius: 10px;
+  width: 220px;
+  text-align: center;
+  background: #fff;
+  transition: all 0.25s ease;
+}
+
+.product-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 14px rgba(0,0,0,0.1);
+}
+
+.product-card img {
+  width: 180px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.product-card h3 {
+  font-size: 16px;
+  margin: 10px 0 6px;
+}
+
+/* ---------- PAGINATION ---------- */
+.pagination {
+  margin-top: 25px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.pagination button {
+  padding: 6px 14px;
+  border: none;
+  border-radius: 6px;
+  background-color: #0f172a;
+  color: white;
+  cursor: pointer;
+}
+
+.pagination button:disabled {
+  background-color: #cbd5e1;
+  cursor: not-allowed;
+}
+
+/* ---------- PRODUCT DETAIL ---------- */
+.product-detail {
+  max-width: 800px;
+  margin: auto;
+}
+
+.product-detail img {
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.product-info p {
+  margin: 6px 0;
+}
+
+.product-description {
+  margin-top: 10px;
+}
+
+/* ---------- REVIEWS ---------- */
+.review {
+  padding: 10px 0;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+/* ---------- BACK LINK ---------- */
+.back-link {
+  display: inline-block;
+  margin-top: 20px;
+  color: #2563eb;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.back-link:hover {
+  text-decoration: underline;
+}

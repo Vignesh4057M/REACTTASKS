@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Calculator</title>
+    <link rel="stylesheet" href="./Calculation.css">
+</head>
+<body>
+
+    <div class="container">
+        <h2>MINI CALCULATOR</h2>
+
+        <input type="number" id="num1" placeholder="Enter first number">
+        <input type="number" id="num2" placeholder="Enter second number">
+
+        <div class="btn-grp">
+            <button onclick="calculate('add')">Add</button>
+            <button onclick="calculate('sub')">Subtract</button>
+            <button onclick="calculate('mul')">Multiply</button>
+            <button onclick="calculate('div')">Divide</button>
+        </div>
+
+        <h3>Result: <span id="result">0</span></h3>
+    </div>
+
+    <script src="./Calculation.js"></script>
+</body>
+</html>
